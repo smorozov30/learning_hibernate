@@ -21,5 +21,8 @@
 <!--        <mapping class="toOne.Role"/>-->
         <mapping class="toMany.User"/>
         <mapping class="toMany.Role"/>
+
+        <mapping class="cars.Make"/>
+        <mapping class="cars.Model"/>
     </session-factory>
 </hibernate-configuration>
