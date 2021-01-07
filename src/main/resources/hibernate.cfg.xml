@@ -19,10 +19,16 @@
 
 <!--        <mapping class="toOne.User"/>-->
 <!--        <mapping class="toOne.Role"/>-->
-        <mapping class="toMany.User"/>
-        <mapping class="toMany.Role"/>
+<!--        <mapping class="toMany.User"/>-->
+<!--        <mapping class="toMany.Role"/>-->
 
-        <mapping class="cars.Make"/>
-        <mapping class="cars.Model"/>
+<!--        <mapping class="cars.Make"/>-->
+<!--        <mapping class="cars.Model"/>-->
+
+<!--        <mapping class="manyToMany.Person"/>-->
+<!--        <mapping class="manyToMany.Address"/>-->
+
+        <mapping class="library.Author"/>
+        <mapping class="library.Book"/>
     </session-factory>
 </hibernate-configuration>
