@@ -21,14 +21,16 @@
 <!--        <mapping class="toOne.Role"/>-->
 <!--        <mapping class="toMany.User"/>-->
 <!--        <mapping class="toMany.Role"/>-->
-
 <!--        <mapping class="cars.Make"/>-->
 <!--        <mapping class="cars.Model"/>-->
-
 <!--        <mapping class="manyToMany.Person"/>-->
 <!--        <mapping class="manyToMany.Address"/>-->
+<!--        <mapping class="library.Author"/>-->
+<!--        <mapping class="library.Book"/>-->
+<!--        <mapping class="lazy.Category"/>-->
+<!--        <mapping class="lazy.Task"/>-->
 
-        <mapping class="library.Author"/>
-        <mapping class="library.Book"/>
+        <mapping class="lazycars.Make"/>
+        <mapping class="lazycars.Model"/>
     </session-factory>
 </hibernate-configuration>
