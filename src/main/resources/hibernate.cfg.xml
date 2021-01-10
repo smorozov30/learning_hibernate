@@ -16,6 +16,7 @@
         <property name="show_sql">true</property>
         <property name="format_sql">true</property>
         <property name="use_sql_comments">true</property>
+        <property name="hibernate.jdbc.time_zone">Asia/Baku</property>
 
 <!--        <mapping class="toOne.User"/>-->
 <!--        <mapping class="toOne.Role"/>-->
@@ -29,8 +30,14 @@
 <!--        <mapping class="library.Book"/>-->
 <!--        <mapping class="lazy.Category"/>-->
 <!--        <mapping class="lazy.Task"/>-->
+<!--        <mapping class="lazycars.Make"/>-->
+<!--        <mapping class="lazycars.Model"/>-->
+<!--        <mapping class="cities.City"/>-->
+<!--        <mapping class="cities.Human"/>-->
+<!--        <mapping class="shop.Product"/>-->
 
-        <mapping class="lazycars.Make"/>
-        <mapping class="lazycars.Model"/>
+        <mapping class="carsowners.Car"/>
+        <mapping class="carsowners.Driver"/>
+        <mapping class="carsowners.Engine"/>
     </session-factory>
 </hibernate-configuration>
