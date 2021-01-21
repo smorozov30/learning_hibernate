@@ -39,9 +39,12 @@
 <!--        <mapping class="carsowners.Driver"/>-->
 <!--        <mapping class="carsowners.Engine"/>-->
 <!--        <mapping class="hql.Student"/>-->
+<!--        <mapping class="hql.Account"/>-->
+<!--        <mapping class="hql.Book"/>-->
 
         <mapping class="job.Candidate"/>
-
+        <mapping class="job.Base"/>
+        <mapping class="job.Vacancy"/>
 
     </session-factory>
 </hibernate-configuration>
