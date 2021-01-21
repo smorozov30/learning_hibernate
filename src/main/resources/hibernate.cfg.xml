@@ -35,9 +35,13 @@
 <!--        <mapping class="cities.City"/>-->
 <!--        <mapping class="cities.Human"/>-->
 <!--        <mapping class="shop.Product"/>-->
+<!--        <mapping class="carsowners.Car"/>-->
+<!--        <mapping class="carsowners.Driver"/>-->
+<!--        <mapping class="carsowners.Engine"/>-->
+<!--        <mapping class="hql.Student"/>-->
 
-        <mapping class="carsowners.Car"/>
-        <mapping class="carsowners.Driver"/>
-        <mapping class="carsowners.Engine"/>
+        <mapping class="job.Candidate"/>
+
+
     </session-factory>
 </hibernate-configuration>
