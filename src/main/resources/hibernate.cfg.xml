@@ -41,10 +41,11 @@
 <!--        <mapping class="hql.Student"/>-->
 <!--        <mapping class="hql.Account"/>-->
 <!--        <mapping class="hql.Book"/>-->
+<!--        <mapping class="job.Candidate"/>-->
+<!--        <mapping class="job.Base"/>-->
+<!--        <mapping class="job.Vacancy"/>-->
 
-        <mapping class="job.Candidate"/>
-        <mapping class="job.Base"/>
-        <mapping class="job.Vacancy"/>
+        <mapping class="message.Message"/>
 
     </session-factory>
 </hibernate-configuration>
